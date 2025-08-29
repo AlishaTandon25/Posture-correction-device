@@ -1,5 +1,3 @@
-# Posture-correction-device
-IoT-based posture correction device project
 # Posture Correction Device
 
 An Arduino-based **Posture Correction Device** that uses an **HC-SR04 Ultrasonic Sensor** to measure the distance between the user and the sensor.  
@@ -7,7 +5,7 @@ If the user leans too close (bad posture), the device triggers a **buzzer alert*
 
 ---
 
-## 🚀 Features
+Features
 - Detects poor posture using distance measurement.
 - Provides instant buzzer feedback to correct posture.
 - Simple USB connection to laptop for power & serial monitoring.
@@ -15,7 +13,7 @@ If the user leans too close (bad posture), the device triggers a **buzzer alert*
 
 ---
 
-## 🛠️ Components Required
+Components Required
 - Arduino UNO (or compatible board)
 - HC-SR04 Ultrasonic Sensor
 - Buzzer (or vibration motor)
@@ -25,7 +23,7 @@ If the user leans too close (bad posture), the device triggers a **buzzer alert*
 
 ---
 
-## 🔌 Circuit Connections
+Circuit Connections
 **Ultrasonic Sensor (HC-SR04):**
 - VCC → 5V  
 - GND → GND  
@@ -38,7 +36,7 @@ If the user leans too close (bad posture), the device triggers a **buzzer alert*
 
 ---
 
-## 💻 Arduino Code
+Arduino Code
 The Arduino sketch measures distance using the ultrasonic sensor:  
 
 - If **distance < 40 cm** → buzzer ON (bad posture).  
@@ -84,6 +82,8 @@ void loop() {
 
   delay(500);
 }
+
+---
 
 Usage
 
