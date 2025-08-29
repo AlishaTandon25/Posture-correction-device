@@ -41,7 +41,6 @@ Circuit Connections
 3. Open Serial Monitor at 9600 baud.
 4. Sit in front of the sensor—if you lean too close, the buzzer beeps!
 
-![Serial Output](assets/serial-output-screenshot.png)
 ---
 
 Arduino Code
