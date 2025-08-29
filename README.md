@@ -82,19 +82,5 @@ void loop() {
 
   delay(500);
 }
-'''
----
-
-Usage
-
-1. Connect the Arduino to your laptop using a USB cable.
-
-2. Upload the provided code using the Arduino IDE.
-
-3. Open Serial Monitor (Ctrl+Shift+M) to see distance readings.
-
-4.
-
-Sit in front of the sensor - if you lean too close, the buzzer will beep!
 
 
