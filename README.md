@@ -34,6 +34,14 @@ Circuit Connections
 - Positive → Pin 8  
 - Negative → GND  
 
+##  Usage
+
+1. Connect the Arduino to your computer via USB.
+2. Upload `PostureCorrection.ino` using the Arduino IDE.
+3. Open Serial Monitor at 9600 baud.
+4. Sit in front of the sensor—if you lean too close, the buzzer beeps!
+
+![Serial Output](assets/serial-output-screenshot.png)
 ---
 
 Arduino Code
